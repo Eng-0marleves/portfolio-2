@@ -1,0 +1,158 @@
+@media (min-width: 768px) {
+    .continar{
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .continar{
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .continar{
+        width: 1170px;
+    }
+}
+
+/*=============================================================================================================*/
+
+@media (max-width: 480px) {
+    .header .continar .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .header .continar .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header .continar .navbar li a {
+        padding: 0;
+    }
+
+    .footer {
+        text-align: center;
+    }
+    .footer .social {
+        width: 100%;
+        padding: 0 0 20px 85px;
+    }
+}
+@media (max-width: 768px) {
+    .header .continar .logo{
+        width: 100%;
+        height: 50px;
+    }
+    .header .continar .navbar{
+        margin: auto;
+    }
+
+    .Landing .continar .text h1{
+        font-size: 28px;
+    }
+    .Landing .continar .text p{
+        font-size: 18px;
+    }
+
+    .work-steps .container img {
+        display: none;
+    }
+    .work-steps .container .box img {
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {    
+    .Landing .image{
+            display: none;
+    }
+    .Landing .continar .text{
+        text-align: center;
+    }
+    .Landing .continar .text p{
+        margin: 10px auto;
+    }
+    .Landing .continar .text h1{
+        font-size: 40px;
+        margin: 0;
+        letter-spacing: -2px;
+    }
+
+    
+    .events img {
+        display: none;
+    }
+
+
+    .video .holder {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .header .mega-menu {
+        flex-direction: column;
+        gap: 0;
+        padding: 5px;
+    }
+
+
+    .events .subscribe form {
+        max-width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        border-radius: 0;
+    }
+    .events .subscribe form input[type="email"],
+    .events .subscribe form input[type="submit"] {
+        border-radius: 0;
+    }
+}
+    .header .mega-menu .image img {
+    max-width: 100%;
+}
+@media (max-width: 991px) {
+    .header .mega-menu .image {
+        display: none;
+    }
+}
+.header .mega-menu .links {
+    min-width: 250px;
+    flex: 1;
+}
+.header .mega-menu .links li {
+    position: relative;
+}
+.header .mega-menu .links li:not(:last-child) {
+    border-bottom: 1px solid #e9e6e6;
+}
+@media (max-width: 767px) {
+    .header .mega-menu .links:first-of-type li:last-child {
+        border-bottom: 1px solid #e9e6e6;
+    }
+}
+@media (max-width: 991px) {
+    .work-steps .container {
+        flex-direction: column;
+    }
+    .work-steps .container img {
+        margin-right: 0;
+    }
+    .work-steps .container .box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .work-steps .container .box:first-child {
+        margin-top: 20px;
+    }
+
+    
+    .discount .image {
+        flex-basis: 100%;
+    }
+    .discount .form {
+        flex-basis: 100%;
+    }
+}
